@@ -6,6 +6,8 @@
 :root{
     --button: rgb(255, 113, 113);
     --letras: #333;
+    --letras-button: #8a8a8a;
+    --button-disabled: #dbdbdb;
 }
 
 *{
@@ -28,8 +30,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .form-header img{
@@ -52,14 +52,18 @@
     outline: none;
 }
 
-.button-login{
+.button__login{
     background-color: var(--button);
     border-radius: 5px;
     width: 100vh;
     max-width: 300px;
     height: 50px;
+    cursor: pointer;
+    
 }
 
-.button-login:hover{
-    cursor: pointer;
+.button__login:disabled{
+    color: var(--letras-button);
+    background-color: var(--button-disabled);
+    cursor: auto;
 }
