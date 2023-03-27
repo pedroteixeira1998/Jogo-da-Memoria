@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Starjedi';
+    src: url(/assets/font/Starjedi.ttf);
+}
+
+:root{
+    --button: rgb(255, 113, 113);
+    --letras: #333;
+}
+
+*{
+    font-family: 'Starjedi'; 
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: var(--letras);
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;    
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.form-header img{
+    width: 200px;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    max-width: 300px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.form-login input{
+    border: 1px solid var(--letras);
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+}
+
+.button-login{
+    background-color: var(--button);
+    border-radius: 5px;
+    width: 100vh;
+    max-width: 300px;
+    height: 50px;
+}
+
+.button-login:hover{
+    cursor: pointer;
+}
