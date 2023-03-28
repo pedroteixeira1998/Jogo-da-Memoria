@@ -23,20 +23,28 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    border: 2px solid red;
+    border: 2px solid yellow;
+    transition: all 400ms ease;
 }
 
 .front{
-    background-image: url(../imagens/anakin.png);
     transform: rotateY(180deg);
 }
 
 .back{
-    background-image: url(../imagens/fundo2.jpeg);
+    background-image: url(../imagens/fundo3.jpeg);
     backface-visibility: hidden;
 }
 
-.card:hover{
+.reveal-card{
     transform: rotateY(180deg);
+}
+
+.card:hover{
     cursor: pointer;
+}
+
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.5;
 }
