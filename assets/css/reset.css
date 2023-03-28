@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Starjedi';
+    src: url(/assets/font/Starjedi.ttf);
+}
+
+:root{
+    --button: rgb(255, 113, 113);
+    --letras: #333;
+    --letras-button: #8a8a8a;
+    --button-disabled: #dbdbdb;
+}
+
+*{
+    font-family: 'Starjedi'; 
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: var(--letras);
+}
