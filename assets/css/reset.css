@@ -8,6 +8,9 @@
     --letras: #333;
     --letras-button: #8a8a8a;
     --button-disabled: #dbdbdb;
+    --header-bg: rgba(255, 255, 0, 0.8);
+    --bg-disabled-card: #ccc;
+    --border-card: rgb(225, 225, 0);
 }
 
 *{

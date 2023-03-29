@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(255, 255, 0, 0.8);
+    background-color: var(--header-bg);
     width: 100%;
     max-width: 660px;
     border-radius: 5px;
@@ -36,7 +36,7 @@ header{
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
-    background-color: #ccc;
+    background-color: var(--bg-disabled-card);
 }
 
 
@@ -47,7 +47,7 @@ header{
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    border: 2px solid yellow;
+    border: 2px solid var(--border-card);
     transition: all 400ms ease;
 }
 
@@ -71,4 +71,26 @@ header{
 .disabled-card {
     filter: saturate(0);
     opacity: 0.5;
+}
+
+@media only screen and (max-device-width: 800px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: var(--header-bg);
+        width: 100%;
+        max-width: 400px;
+        border-radius: 5px;
+    
+    }
 }
