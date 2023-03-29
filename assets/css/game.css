@@ -1,9 +1,32 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(../imagens/fundotela.png);
+    min-height: 100vh;
+    gap: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255, 255, 0, 0.8);
+    width: 100%;
+    max-width: 660px;
+    border-radius: 5px;
+
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
     max-width: 700px;
-    margin: 100px auto;
+    margin: 0 auto;
     gap: 15px;
 }
 
@@ -13,6 +36,7 @@
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
+    background-color: #ccc;
 }
 
 
