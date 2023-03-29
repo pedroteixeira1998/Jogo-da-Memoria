@@ -4,17 +4,28 @@
 
 Jogo da memória com a temática "Star Wars", a página conta com uma tela de cadastro do player, essa página encaminha para o jogo, lá temos o nome, seu tempo para finalizar e as cartas.
 
+## Desenvolvido com
+
+![image](https://user-images.githubusercontent.com/124098830/228688209-dddcd457-c70b-4673-9a37-094e14a0b09e.png)
+![image](https://user-images.githubusercontent.com/124098830/228688219-325fcbc4-a36f-41e5-a60e-dafe0045e6e4.png)
+![image](https://user-images.githubusercontent.com/124098830/228688228-296088c5-7637-4f55-acd4-dfd2606ce9f5.png)
+
+
 ## Tecnologias 
 
 ⚙️ HTML;
+
 ⚙️ CSS;
+
 ⚙️ JavaScript;
 
 ## Motivação 
 
 Esse projeto serviu para reforçar diversos conceitos, como uso do LocalStorage e do this, arrays, atributos, entre outros. Foco na base do JavaScript.
 
-Link: https://pedroteixeira1998.github.io/Jogo-da-Mem-ria/
+## Link
+
+https://pedroteixeira1998.github.io/Jogo-da-Mem-ria/
 
 ## Fotos
 
